@@ -20,7 +20,7 @@ st.sidebar.header('User Input Features')
 selected_year = st.sidebar.selectbox('Year', list(reversed(range(1990,2020))))
 
 # Web scraping of NFL player stats
-# https://www.pro-football-reference.com/years/2020/rushing.htm
+# https://www.pro-football-reference.com/years/2021/rushing.htm
 @st.cache
 def load_data(year):
     url = "https://www.pro-football-reference.com/years/" + str(year) + "/rushing.htm"
