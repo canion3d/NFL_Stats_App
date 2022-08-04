@@ -3,7 +3,7 @@ import pandas as pd
 import base64
 
 
-st.title('NFL Football Stats (Rushing) Explorer')
+st.title('NFL Football Stats Explorer')
 
 from PIL import Image
 image = Image.open('National_Football_League_logo.svg.png')
